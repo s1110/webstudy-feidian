@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    min-height: 500px;
+}
+.header{
+    width: 100%;
+    height: 62px;
+    background: #eff4fa;
+    border-bottom: 1px solid #d6dfea;
+}
+.header img{
+    width: 182px;
+    height: 35px;
+    margin-top: 14px;
+    margin-left: 40px;
+    float: left;
+}
+.header_link{
+    padding-top: 16px;
+    padding-right: 40px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: right;
+    color: #b6b6b6;
+}
+.header_link a{
+    line-height: 30px;
+    color:#1d5494;
+    text-decoration: none;
+}
+.header_link a:hover{
+    text-decoration: underline;
+}
+.content{
+    width: 960px;
+    margin: 32px auto;
+    padding: 0 24px;
+    overflow: hidden;
+}
+.c_text{
+    margin-right: 0px;
+    margin-left: 25px;
+    margin-bottom: 60px;
+    padding-top: 65px;
+    float: left;
+    height: 400px;
+    width: 520px;
+    position: relative;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    background-image: url("https://rescdn.qqmail.com/zh_CN/htmledition/images/tg-mail20f1b0.gif");
+    background-repeat: no-repeat;
+    background-position: right 140px;
+}
+.c_text h1{
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #6f95c8;
+}
+.c_text p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.c_card{
+    width: 334px;
+    height: 387px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+    visibility: visible;
+    border: 1px solid #a0b1c4;
+    border-radius: 5px;
+}
+.card_top{
+    height:50px;
+    border-bottom: 1px solid #a0b1c4;
+    background: #f9fbfe;
+}
+.card_top li{
+    float: left;
+    display: block;
+    width: 167px;
+    list-style-type: none;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    line-height: 50px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    cursor: pointer;
+}
+.password{
+    margin-left: 26px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    height: 36px;
+    width: 280px;
+}
+.acount{
+    margin-top: 36px;
+    margin-left: 26px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    height: 36px;
+    width: 280px;
+}
+.checkbox{
+    float: left;
+    margin-top: 12px;
+    margin-left: 26px;
+    height: 20px;
+    width: 20px;
+}
+.c_card p{
+    float: left;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.submit{
+    margin-left: 26px;
+    margin-top: 16px;
+    width: 284px;
+    height: 40px;
+    border: 1px solid cornflowerblue;
+    background-color: #5a98de;
+    border-radius: 3px;
+    font: 18px "lucida Grande",Verdana,"Microsoft YaHei";
+    color:white;
+    cursor: pointer;
+}
+.c_card a{
+    line-height: 36px;
+    color: #225592;
+    text-decoration: none;
+}
+.c_card a:hover{
+    text-decoration: underline;
+}
+.quick{
+    float:right;
+    padding-top: 15px;
+    margin-right: 122px;
+    font-size: 14px;
+}
+.forget{
+    float: left;
+    margin-top: 49px;
+    margin-left: 26px;
+    font-size: 12px;
+}
+.new{
+    float: right;
+    margin-top: 18px;
+    margin-right: 26px;
+    font-size: 12px;
+}
+.footer
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 36px;
+    font-size: 12px;
+    text-align: center;
+    background: #eff4fa;
+    border-top:1px solid #d6dfea;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+}
+.footer a{
+    line-height: 36px;
+    color: #1d5494;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer span{
+    color: #868686;
+}
