@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QQMusicPlayer</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <div id="header">
+        <div class="header_bar">
+            <div class="header_bar_top">
+                <img src="image/qqmusic.png" alt="QQMusic" class="qq_icon"/>
+                <ul class="header_bar_top_ul">
+                    <li><a href="" class="first_child">音乐馆</a></li>
+                    <li><a href="">我的音乐</a></li>
+                    <li><a href="">客户端</a></li>
+                    <li><a href="">开放平台</a></li>
+                    <li><a href="">VIP</a></li>
+                </ul>
+                <div class="header_bar_input_box">
+                    <input type="text" placeholder="搜索音乐、MV、歌单、用户"/>
+                    <i class="input_icon"></i>
+                </div>
+                <!-- <div class="login_head">
+                    <p>登录</p>
+                </div> -->
+                <a href="" class="login_head">登录</a>
+                <button class="btn_vip">开通绿钻豪华版</button>
+                <button class="btn_money">开通付费包</button>
+            </div>
+            <div class="header_bar_bot">
+                <ul class="header_bar_bot_ul nav_list">
+                    <li><a href="" class="chosen_page">首页</a></li>
+                    <li><a href="">歌手</a></li>
+                    <li><a href="">新碟</a></li>
+                    <li><a href="">排行榜</a></li>
+                    <li><a href="">分类歌单</a></li>
+                    <li><a href="">电台</a></li>
+                    <li><a href="">MV</a></li>
+                    <li><a href="">数字专辑</a></li>
+                    <li><a href="">票务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="music_recommend">
+        <div class="recommend_cont">
+            <h2 class="item_head">歌 单 推 荐</h2>
+            <ul class="nav_list margin_bot">
+                <li><a href="" class="chosen_page">为你推荐</a></li>
+                <li><a href="">网络歌曲</a></li>
+                <li><a href="">经典国语</a></li>
+                <li><a href="">KTV热歌</a></li>
+                <li><a href="">官方歌单</a></li>
+                <li><a href="">情歌</a></li>
+            </ul>
+            <ul class="music_list">
+                <li>
+                    <div class="music_list_box">
+                        <div class="cover">
+                            <em class="cover_play"></em>
+                            <a href="" class="cover_a">
+                                <img src="image/王菲.png" class="cover_img"/>
+                            </a>
+                        </div>
+                        <a href="" class="music_list_title">
+                            <p>王菲：千言万语，不如幻乐一场</p>
+                        </a>
+                        <span>播放量：</span><span>923.6万</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="music_list_box">
+                        <div class="cover">
+                            <em class="cover_play"></em>
+                            <a href="" class="cover_a">
+                                <img src="image/午夜.png" class="cover_img"/>
+                            </a>
+                        </div>
+                        <a href="" class="music_list_title">
+                            <p>午夜宣泄｜听觉神经的撞击</p>
+                        </a>
+                        <span>播放量：</span><span>105.6万</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="music_list_box">
+                        <div class="cover">
+                            <em class="cover_play"></em>
+                            <a href="" class="cover_a">
+                                <img src="image/王者.png" class="cover_img"/>
+                            </a>
+                        </div>
+                        <a href="" class="music_list_title">
+                            <p>「王者荣耀」蛇皮走位专用BGM</p>
+                        </a>
+                        <span>播放量：</span><span>140.4万</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="music_list_box">
+                        <div class="cover">
+                            <em class="cover_play"></em>
+                            <a href="" class="cover_a">
+                                <img src="image/王菲.png" class="cover_img"/>
+                            </a>
+                        </div>
+                        <a href="" class="music_list_title">
+                            <p>TFBOYS合辑</p>
+                        </a>
+                        <span>播放量：</span><span>370.8万</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="music_list_box">
+                        <div class="cover">
+                            <em class="cover_play"></em>
+                            <a href="" class="cover_a">
+                                <img src="image/dy.png" class="cover_img"/>
+                            </a>
+                        </div>
+                        <a href="" class="music_list_title">
+                            <p>抖音热门丨收藏过万的国语歌曲</p>
+                        </a>
+                        <span>播放量：</span><span>624.2万</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 底部导航栏 -->
+        <div class="switch_page">
+            <a href="" class="chosen_a">
+                <ul class="chosen_ul">
+                    <li class="chosen_li"></li>
+                    <li class="hover_li"></li>
+                </ul>
+            </a>
+        </div>
+        <!-- 两侧导航栏 -->
+        <div class="action_box">
+            <div class="action_left">
+                <a href="" class="turn_left">
+                    <i></i>
+                </a>
+            </div>
+            <div class="action_right">
+                <a href="" class="turn_right">
+                    <i></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="new_music">
+            <h2 class="item_head">新 歌 首 发</h2>
+            <div class="new_music_cont">
+              <div class="new_music_navbar">
+                <a href="#" class="play_all">
+                  <button><i></i>播放全部</button>
+                </a>
+                <ul class="nav_list">
+                  <li><a href="" class="chosen_page">最新</a></li>
+                  <li><a href="">内地</a></li>
+                  <li><a href="">港台</a></li>
+                  <li><a href="">欧美</a></li>
+                  <li><a href="">韩国</a></li>
+                  <li><a href="">日本</a></li>
+                </ul>
+              </div>
+              <div class="new_music_box">
+                <ul class="new_music_cont_ul">
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/如你所愿.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>如你所愿</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>二手玫瑰乐队</span>
+                        </a>
+                      </div>
+                      <p class="song_time">04:08</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/世界正中.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>世界正中</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>陈粒</span>
+                        </a>
+                      </div>
+                      <p class="song_time">03:56</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/我们一起.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>我们一起去屠龙 (龙之谷十周年生日歌)</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>山新 / 幽舞越山 / 符冲 / 叮当 / 魏晶 / 黄健翔</span>
+                        </a>
+                      </div>
+                      <p class="song_time">05:37</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/玉珍.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>玉珍</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>福禄寿FloruitShow</span>
+                        </a>
+                      </div>
+                      <p class="song_time">05:27</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/傻子.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>5:10a.m.</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>傻子与白痴</span>
+                        </a>
+                      </div>
+                      <p class="song_time">04:34</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/决斗.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>决斗场见 (《火影忍者》手游首支中文主题曲)</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>张韶涵</span>
+                        </a>
+                      </div>
+                      <p class="song_time">03:18</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/青春.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>青春必修课</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>赵露思 / 陆宇鹏</span>
+                        </a>
+                      </div>
+                      <p class="song_time">04:32</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/原因.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>原因不明</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>王北车</span>
+                        </a>
+                      </div>
+                      <p class="song_time">03:45</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="new_music_list_box">
+                      <div class="new_music_cover">
+                        <em class="new_music_cover_play"></em>
+                        <a href="" class="new_music_cover_a">
+                          <img
+                            src="image/料理.png"
+                            alt=""
+                            class="new_music_img"
+                          />
+                        </a>
+                      </div>
+                      <div class="new_music_list_title">
+                        <a href="" class="new_music_title">
+                          <p>料理家</p>
+                        </a>
+                        <a href="" class="song_author">
+                          <span>HomeBoy叶枫华</span>
+                        </a>
+                      </div>
+                      <p class="song_time">02:00</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- 底部导航条 -->
+            <div class="switch_page">
+              <a href="" class="chosen_a">
+                <ul class="chosen_ul">
+                  <li class="chosen_li"></li>
+                  <li class="hover_li"></li>
+                  <li class="hover_li"></li>
+                </ul>
+              </a>
+            </div>
+            <!-- 两侧导航按键 -->
+            <div class="action_box">
+              <div class="action_left">
+                <a href="" class="turn_left">
+                  <i></i>
+                </a>
+              </div>
+              <div class="action_right">
+                <a href="" class="turn_right">
+                  <i></i>
+                </a>
+              </div>
+            </div>
+    </div>
+    <div id="fantastic">
+            <h2 class="item_head">精 彩 推 荐</h2>
+            <div class="fantastic_box">
+              <img src="image/推荐1.png" alt="" />
+              <img src="image/推荐2.png" alt="" />
+            </div>
+            <!-- 底部导航条 -->
+            <div class="switch_page">
+              <a href="" class="chosen_a">
+                <ul class="chosen_ul">
+                  <li class="chosen_li"></li>
+                  <li class="hover_li"></li>
+                  <li class="hover_li"></li>
+                  <li class="hover_li"></li>
+                  <li class="hover_li"></li>
+                </ul>
+              </a>
+            </div>
+            <!-- 两侧导航按键 -->
+            <div class="action_box">
+              <div class="action_left">
+                <a href="" class="turn_left">
+                  <i></i>
+                </a>
+              </div>
+              <div class="action_right">
+                <a href="" class="turn_right">
+                  <i></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="new_album">
+            <div class="recommend_cont">
+              <h2 class="item_head">新 碟 首 发</h2>
+              <ul class="nav_list margin_bot">
+                <li><a href="" class="chosen_page ">内地</a></li>
+                <li><a href="">港台</a></li>
+                <li><a href="">欧美</a></li>
+                <li><a href="">韩国</a></li>
+                <li><a href="">日本</a></li>
+                <li><a href="">其他</a></li>
+              </ul>
+              <ul class="music_list flex_wrap">
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/说唱.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>说唱听我的 第7期</p>
+                    </a>
+                    <span>说唱听我的</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/斩.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>斩风月</p>
+                    </a>
+                    <span>曹敬鹏 / 莉莉克丝Leleex</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/桃花.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>桃花扇</p>
+                    </a>
+                    <span>李千秋</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/如果.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>如果你已成为过去</p>
+                    </a>
+                    <span>钟立帅</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/夏梦.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>夏梦记</p>
+                    </a>
+                    <span>潇梦临</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/李.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>OH my honey (女版)</p>
+                    </a>
+                    <span>李琪</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/纯真.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>纯真年代</p>
+                    </a>
+                    <span>李浩菲 / 赵弈钦</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/世界.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>世界正中</p>
+                    </a>
+                    <span>陈粒</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/明日.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>明日之子乐团季 第3期</p>
+                    </a>
+                    <span>明日之子乐团季</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="music_list_box">
+                    <div class="cover">
+                      <em class="cover_play"></em>
+                      <a href="" class="cover_a">
+                        <img
+                          src="image/夏天.png"
+                          alt=""
+                          class="cover_img"
+                        />
+                      </a>
+                    </div>
+                    <a href="" class="music_list_title">
+                      <p>乐队的夏天2 第1期</p>
+                    </a>
+                    <span>乐队的夏天</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="billboard">
+            <div class="billboard_cont">
+              <h2 class="item_head">排 行 榜</h2>
+              <ul class="billboard_ul">
+                <li>
+                  <div class="billboard_box">
+                    <h2 class="billboard_title">巅峰榜</h2>
+                    <h1 class="billboard_type">热歌</h1>
+                    <div class="billboard_cover_box">
+                      <a href="" class="billboard_cover_box_a">
+                        <div class="solid"></div>
+                        <div class="cover_play show"></div>
+                      </a>
+                    </div>
+                    <div class="billboard_list">
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>1</span> <span>마리아 (Maria)</span>
+                          <p>华莎 (화사)</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>2</span> <span>飞鸟和蝉</span>
+                          <p>任然</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>3</span> <span>晴天</span>
+                          <p>周杰伦</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="billboard_box hot_music">
+                    <h2 class="billboard_title">巅峰榜</h2>
+                    <h1 class="billboard_type">新歌</h1>
+                    <div class="billboard_cover_box">
+                      <a href="" class="billboard_cover_box_a">
+                        <div class="solid"></div>
+                        <div class="cover_play show"></div>
+                      </a>
+                    </div>
+                    <div class="billboard_list">
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>1</span> <span>마리아 (Maria)</span>
+                          <p>华莎 (화사)</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>2</span> <span>飞鸟和蝉</span>
+                          <p>任然</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>3</span> <span>爱，存在</span>
+                          <p>林小珂</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="billboard_box new_song">
+                    <h2 class="billboard_title">巅峰榜</h2>
+                    <h1 class="billboard_type">流行指数</h1>
+                    <div class="billboard_cover_box">
+                      <a href="" class="billboard_cover_box_a">
+                        <div class="solid"></div>
+                        <div class="cover_play show"></div>
+                      </a>
+                    </div>
+                    <div class="billboard_list">
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>1</span> <span>爸爸妈妈</span>
+                          <p>李荣浩</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>2</span> <span>难题</span>
+                          <p>谢宇伦/Uu</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>3</span> <span>决斗场见</span>
+                          <p>张韶涵</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="billboard_box europe">
+                    <h2 class="billboard_title">巅峰榜</h2>
+                    <h1 class="billboard_type">欧美</h1>
+                    <div class="billboard_cover_box">
+                      <a href="" class="billboard_cover_box_a">
+                        <div class="solid"></div>
+                        <div class="cover_play show"></div>
+                      </a>
+                    </div>
+                    <div class="billboard_list">
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>1</span> <span>Easy</span>
+                          <p>Troye Sivan</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>2</span> <span>Smile</span>
+                          <p>Katy Perry</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>3</span> <span>Slow Grenade</span>
+                          <p>Ellie Goulding / Lauv</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="billboard_box korean">
+                    <h2 class="billboard_title">巅峰榜</h2>
+                    <h1 class="billboard_type">韩国</h1>
+                    <div class="billboard_cover_box">
+                      <a href="" class="billboard_cover_box_a">
+                        <div class="solid"></div>
+                        <div class="cover_play show"></div>
+                      </a>
+                    </div>
+                    <div class="billboard_list">
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>1</span> <span>마리아 (Maria)</span>
+                          <p>华莎 (화사)</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>2</span>
+                          <span>What You Waiting For</span>
+                          <p>全昭弥 (전소미)</p>
+                        </a>
+                      </div>
+                      <div class="b_list_item">
+                        <a href="">
+                          <span>3</span> <span>How You Like That</span>
+                          <p>BLACKPINK</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="mv">
+            <h2 class="item_head">M V</h2>
+            <ul class="nav_list margin_bot">
+              <li><a href="" class="chosen_page ">精选</a></li>
+              <li><a href="">内地</a></li>
+              <li><a href="">韩国</a></li>
+              <li><a href="">港台</a></li>
+              <li><a href="">欧美</a></li>
+              <li><a href="">日本</a></li>
+            </ul>
+            <div class="mv_cont">
+              <ul class="mv_cont_ul">
+                <li>
+                  <div class="mv_box">
+                    <a href="">
+                      <div class="mv_cover">
+                        <img
+                          src="image/决.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">决斗场见 (《火影忍者》手游首支中文主题曲)</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">张韶涵</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>9.3万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a
+                      href=""
+                    >
+                      <div class="mv_cover">
+                        <img
+                          src="image/五月.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">五月天《爱情的模样》Live MV(Live)</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">五月天</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>5.5万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a
+                      href=""
+                    >
+                      <div class="mv_cover">
+                        <img
+                          src="image/ts.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">cardigan</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">Taylor Swift</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>124.6万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a
+                      href=""
+                    >
+                      <div class="mv_cover">
+                        <img
+                          src="image/格格不入.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">
+                            格格不入
+                        </p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">陈立农</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>26.3万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a
+                      href="">
+                      <div class="mv_cover">
+                        <img
+                          src="image/呼吸.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">呼吸有害 (Live Version)</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">莫文蔚</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>2.4万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <div class="mv_cover">
+                      <img
+                        src="image/好妹妹.png"
+                        alt=""
+                        class="mv_img"
+                      />
+                      <div class="cover_play mv_show"></div>
+                    </div>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">好妹妹十周年弹唱系列之《微风曲》</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author"> 好妹妹</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>6751</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <div class="mv_cover">
+                      <img
+                        src="image/让.png"
+                        alt=""
+                        class="mv_img"
+                      />
+                      <div class="cover_play mv_show"></div>
+                    </div>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">让他们热</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">AJ赖煜哲</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>2.8万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a
+                      href=""
+                    >
+                      <div class="mv_cover">
+                        <img
+                          src="image/少年.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">少年</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">梦然</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>25.7万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a href="">
+                      <div class="mv_cover">
+                        <img
+                          src="image/爸爸的小木屋.png"
+                          alt=""
+                          class="mv_img"
+                        />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">爸爸的木匠小屋 (《爸爸的木匠小屋》纪录片同名主题曲)</p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">王晰</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>7.3万</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="mv_box">
+                    <a href="">
+                      <div class="mv_cover">
+                        <img src="image/tk.png" alt="" class="mv_img" />
+                        <div class="cover_play mv_show"></div>
+                      </div>
+                    </a>
+                    <div class="mv_title">
+                      <a href="">
+                        <p class="mv_name">
+                            Take You Dancing (舞蹈版)
+                        </p>
+                      </a>
+                      <a href="">
+                        <p class="mv_author">Jason Derulo</p>
+                      </a>
+                      <p class="vv"><i class="mv_icon"></i>7756</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- 底部导航条 -->
+            <div class="switch_page">
+              <a href="" class="chosen_a">
+                <ul class="chosen_ul">
+                  <li class="chosen_li"></li>
+                  <li class="hover_li"></li>
+                </ul>
+              </a>
+            </div>
+            <!-- 两侧导航按键 -->
+            <div class="action_box mv_action">
+              <div class="action_left">
+                <a href="" class="turn_left">
+                  <i></i>
+                </a>
+              </div>
+              <div class="action_right">
+                <a href="" class="turn_right">
+                  <i></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="footer">
+            <div class="footer_box">
+              <div class="footer_left">
+                <p class="fl_title">下载qq音乐客户端</p>
+                <div class="platform">
+                  <ul class="platform_ul">
+                    <li>
+                      <div class="platform_box_pc">
+                        <a href="">
+                          <i class="platform_icon"></i>
+                          <p class="platform_title">PC版</p>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="platform_box_mac">
+                        <a href="">
+                          <i class="platform_icon"></i>
+                          <p class="platform_title">MAC版</p>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="platform_box_android">
+                        <a href="">
+                          <i class="platform_icon"></i>
+                          <p class="platform_title">Android版</p>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="platform_box_iphone">
+                        <a href="">
+                          <i class="platform_icon"></i>
+                          <p class="platform_title">iPhone版</p>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <p class="open_platform">开放平台</p>
+                <div class="other_link">
+                  <a href="" class="other_link_a">腾讯音乐人</a>
+                  <a href="" class="other_link_a">音乐号认证</a>
+                </div>
+              </div>
+              <div class="footer_mid">
+                <p class="fm_title">特色产品</p>
+                <div class="special_product">
+                  <ul class="special_product_ul">
+                    <li>
+                      <div class="sp_box_k">
+                        <a href="#">
+                          <i class="sp_icon"></i>
+                          <p class="sp_title">全民K歌</p>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="sp_box_s">
+                        <a href="#">
+                          <i class="sp_icon"></i>
+                          <p class="sp_title">Super Sound</p>
+                        </a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="sp_box_q">
+                        <a href="#">
+                          <i class="sp_icon"></i>
+                          <p class="sp_title">Qplay</p>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                  <p class="car_link"><span>车载互联</span> <span>QQ演出</span></p>
+                  <p class="tme">TME集团官网</p>
+                  <a href="" class="tencent_music">腾讯音乐</a>
+                </div>
+              </div>
+              <div class="footer_right">
+                <p class="cooperation_links">
+                  合作链接
+                </p>
+                <div class="link_box">
+                  <ul class="link_ul">
+                    <li><a href="">CJ ENM</a></li>
+                    <li><a href="">腾讯视频</a></li>
+                    <li><a href="">手机QQ空间</a></li>
+                    <li><a href="">最新版QQ</a></li>
+                    <li><a href="">腾讯社交广告</a></li>
+                    <li><a href="">电脑管家</a></li>
+                    <li><a href="">QQ浏览器</a></li>
+                    <li><a href="">腾讯微云</a></li>
+                    <li><a href="">腾讯云</a></li>
+                    <li><a href="">企鹅FM</a></li>
+                    <li><a href="">智能电视网</a></li>
+                    <li><a href="">当贝市场</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <ul class="copyright_info">
+                <li><a href="">关于腾讯</a></li>
+                <li><a href="">About Tencent</a></li>
+                <li><a href="">服务条款</a></li>
+                <li><a href="">用户服务协议</a></li>
+                <li><a href="">隐私政策</a></li>
+                <li><a href="">权利声明</a></li>
+                <li><a href="">广告服务</a></li>
+                <li><a href="">腾讯招聘</a></li>
+                <li><a href="">客服中心</a></li>
+                <li><a href="">网站导航</a></li>
+              </ul>
+              <p>
+                Copyright © 1998 - 2019 Tencent. <a href="">All Rights Reserved.</a>
+              </p>
+              <p>
+                腾讯公司 <a href="">版权所有</a><a href="">腾讯网络文化经营许可证</a>
+              </p>
+            </div>
+          </div>
+          <div class="fixed_music_box">
+            <img src="./img/logo.png" alt="" />
+            <p>千万高品质曲库尽享</p>
+            <a href=""><i></i>客户端下载</a>
+          </div>
+          <a href="" class="go_top"></a>
+          <a href="" class="feed_back">反馈</a>
+          <a href="" class="open_player"></a>    
+          
+
+
+</body>
+</html>
